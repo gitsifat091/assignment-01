@@ -279,3 +279,79 @@ nav .menu a:hover {
     color: #757575;
     line-height: 24px;
 }
+
+/* ===== SOLUTION SECTION ===== */
+
+#solution {
+    padding: 100px 20px;
+    background-color: #F9FAFB;
+}
+
+.solution-container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.solution-image {
+    flex: 1;
+    text-align: center;
+}
+
+.solution-image img {
+    max-width: 420px;
+    width: 100%;
+}
+
+.solution-content {
+    flex: 1;
+}
+
+.solution-tag {
+    font-size: 13px;
+    font-weight: 700;
+    color: #3DBE6E;
+    letter-spacing: 1.5px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.solution-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #181818;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.solution-desc {
+    font-size: 15px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.solution-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.solution-list li {
+    font-size: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.check-icon {
+    color: #3DBE6E;
+    font-size: 14px;
+    font-weight: 800;
+    flex-shrink: 0;
+}
