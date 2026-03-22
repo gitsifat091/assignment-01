@@ -225,8 +225,6 @@ nav .menu a:hover {
     gap: 24px;
     justify-content: center;
     flex-wrap: wrap;
-    /* height: 448px;
-    width: 1600px; */
 }
 
 .problem-card {
@@ -238,14 +236,7 @@ nav .menu a:hover {
     flex: 1 1 220px;
     text-align: center;
     box-shadow: 0 4px 24px rgba(0,0,0,0.06);
-    /* height: 300px;
-    width: 322px; */
 }
-
-/* .problem-card .card-p {
-    width: 274px;
-    height: 40px;
-} */
 
 .card-icon {
     width: 60px;
@@ -366,7 +357,6 @@ nav .menu a:hover {
 .cta-container {
     background-color: #F7F6F2;
     text-align: center;
-    /* max-width: 600px; */
     margin: 0 auto;
 
     width: 1360px;
@@ -376,8 +366,6 @@ nav .menu a:hover {
     padding-bottom: 80px;
     padding-left: 40px;
     gap: 24px;
-    angle: 0 deg;
-    opacity: 1;
     border-radius: 12px;
 }
 
@@ -401,3 +389,78 @@ nav .menu a:hover {
     margin-top: 16px;
 }
 
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: #0F1B2D;
+    width: 1600;
+    height: 348;
+    padding-top: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    gap: 80px;
+    border-top-width: 1px;
+}
+
+.footer-container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    flex-wrap: wrap;
+    gap: 24px;
+
+    width: 1360;
+    height: 64;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.social-label {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+}
+
+.social-icons a img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    filter: brightness(0) invert(0.7);
+    transition: filter 0.2s;
+}
+
+.social-icons a:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.footer-bottom {
+    width: 85%;
+    max-width: 1140px;
+    margin: 24px auto 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: #666;
+}
