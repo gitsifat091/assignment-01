@@ -6,6 +6,7 @@
 
 .font-open-sans {
     font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .color-green {
@@ -180,3 +181,101 @@ nav .menu a:hover {
     font-size: 12px;
 }
 
+/* ===== PROBLEMS SECTION ===== */
+
+#problems {
+    padding: 100px 20px;
+    background-color: #fff;
+}
+
+#problems .section-container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#problems .section-container .section-heading {
+    width: 1360;
+    height: 152;    
+    gap: 16px;
+}
+
+.section-heading h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-heading p {
+    margin-top: 16px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.problem-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* height: 448px;
+    width: 1600px; */
+}
+
+.problem-card {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 36px 28px;
+    max-width: 255px;
+    flex: 1 1 220px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    /* height: 300px;
+    width: 322px; */
+}
+
+/* .problem-card .card-p {
+    width: 274px;
+    height: 40px;
+} */
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.red-icon {
+    background-color: #f44646;
+}
+
+.card-icon img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.problem-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 12px;
+}
+
+.problem-card p {
+    font-size: 14px;
+    color: #757575;
+    line-height: 24px;
+}
