@@ -355,3 +355,49 @@ nav .menu a:hover {
     font-weight: 800;
     flex-shrink: 0;
 }
+
+/* ===== CTA SECTION ===== */
+
+#cta {
+    padding: 100px 20px;
+    background-color: #ffffff;
+}
+
+.cta-container {
+    background-color: #F7F6F2;
+    text-align: center;
+    /* max-width: 600px; */
+    margin: 0 auto;
+
+    width: 1360px;
+    height: 384px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    gap: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 12px;
+}
+
+.cta-container h2 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 16px;
+}
+
+.cta-container > p {
+    font-size: 15px;
+    color: #757575;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.cta-note {
+    font-size: 13px;
+    color: #999;
+    margin-top: 16px;
+}
+
